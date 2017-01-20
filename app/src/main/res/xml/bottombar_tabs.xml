@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tabs>
     <tab
-        id="@+id/tab_salud"
-        icon="@drawable/salud"
-        title="Salud"
+        id="@+id/tab_1"
+        icon="@drawable/bolita_icon"
         />
     <tab
-        id="@+id/tab_deporte"
-        icon="@drawable/vida_deportiva"
-        title="Deporte"
+        id="@+id/tab_2"
+        icon="@drawable/bolita_icon"
+        />
+    <tab
+        id="@+id/tab_3"
+        icon="@drawable/bolita_icon"
+        />
+    <tab
+        id="@+id/tab_4"
+        icon="@drawable/bolita_icon"
         />
 </tabs>
