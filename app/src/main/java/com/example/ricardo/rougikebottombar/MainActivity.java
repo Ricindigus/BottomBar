@@ -62,16 +62,6 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.setCustomAnimations(R.anim.enter_from_left, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_left);
                 fragmentTransaction.replace(R.id.contentContainer, fragment);
                 fragmentTransaction.addToBackStack(null).commit();
-
-//                if (tabId == fragments[1]) {
-//                    fragmentActual = 1;
-//                    Fragment3 fragment3 = new Fragment3();
-//                    FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
-//                    fragmentTransaction1.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left, R.anim.enter_from_left, R.anim.exit_to_right);
-//                    fragmentTransaction1.replace(R.id.contentContainer, fragment3);
-//                    fragmentTransaction1.addToBackStack(null).commit();
-//                }
-
             }
         });
     }
